@@ -1,0 +1,32 @@
+{
+	"name": "ayush-portfolio",
+	"version": "0.0.1",
+	"type": "module",
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"format": "prettier --write .",
+		"lint": "prettier --check ."
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "^3.0.0",
+		"@sveltejs/kit": "^2.9.0",
+		"@sveltejs/vite-plugin-svelte": "^5.0.0",
+		"autoprefixer": "^10.4.20",
+		"axios": "^1.7.9",
+		"daisyui": "^4.12.14",
+		"mdsvex": "^0.12.3",
+		"prettier": "^3.3.2",
+		"prettier-plugin-svelte": "^3.2.6",
+		"prettier-plugin-tailwindcss": "^0.6.5",
+		"svelte": "^5.0.0",
+		"sveltekit-adapter-iis": "^1.4.1",
+		"tailwindcss": "^3.4.9",
+		"vite": "^6.0.0"
+	},
+	"dependencies": {
+		"gray-matter": "^4.0.3",
+		"marked": "^15.0.3"
+	}
+}
