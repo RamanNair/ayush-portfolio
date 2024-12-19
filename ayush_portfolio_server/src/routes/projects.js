@@ -4,13 +4,17 @@ const { marked } = require("marked");
 const fs = require("fs");
 const path = require("path");
 
+
 const router = express.Router();
 // const mdDirectory = "\\\\192.168.50.1\\homestorage\\Ayush Prashant Nair\\ayush-markdown";
 
-// const dataFilesDirectory = "c:\\Nair\\Data\\Projects";
-// const dataFilesDirectory="\\\\rndev01\\c$\Nair\\Data\\Projects"
+// const dataFilesDirectory = "c:\Nair\Data\Projects";
+ const dataFilesDirectory="\\\\rndev01\\c$\\Nair\\Data\\Projects" ;//ok
+//  const dataFilesDirectory="S:\\Data\\Projects"
+// const dataFilesDirectory="\\\\S:\\Data\\Projects"
+// const dataFilesDirectory="\\192.168.50.1\homestorage\Ayush Prashant Nair\Data\Projects"
 
-const dataFilesDirectory="\\\\192.168.50.1\\homestorage\\Ayush Prashant Nair\\Data\\Project"
+// let xx=path.join('192.168.50.1','homestorage','Ayush Prashant Nair','Data','Projects', file);
 router.get("/", async (req, res) => {
   console.log("here I am NOW....");
   try {
