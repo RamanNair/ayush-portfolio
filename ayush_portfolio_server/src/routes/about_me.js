@@ -3,7 +3,8 @@ const fs = require("fs");
 const path = require("path");
 
 const router = express.Router();
-const aboutMeFile = "c:\\Nair\\Data\\About_Me\\about_me.json";
+// const aboutMeFile = "c:\\Nair\\Data\\About_Me\\about_me.json";
+const aboutMeFile='C:/Ayush/About_Me/about_me.json' ;//"\\\\rndev01\\c$\\Nair\\Data\\Projects" ;//ok
 
 router.get("/", async (req, res) => {
   try {

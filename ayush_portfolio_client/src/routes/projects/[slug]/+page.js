@@ -13,7 +13,9 @@ import axios from 'axios';
 export const load = async ({ url, searchParams, params }) => {
 	console.log(params.slug, '---------');
 	// const posts = []; //await getPost(url.pathname.split('/')[2]);
-	const { data } = await axios.get(`http://202.177.41.198:9091/api/project/${params.slug}`);
+	// const { data } = await axios.get(`http://202.177.41.198:9091/api/project/${params.slug}`);
+	const { data } = await axios.get(`${import.meta.env.VITE_API_URL}/project/${params.slug}`);
+
 	return {
 		data
 	};
