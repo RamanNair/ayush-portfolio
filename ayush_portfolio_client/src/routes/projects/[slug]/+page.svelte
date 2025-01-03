@@ -33,7 +33,7 @@
 	</div>
 </div> -->
 
-<div class="h-full">  
+<div class="h-full   border-gray-200 p-3 border backdrop-filter backdrop-blur-md bg-opacity-50">  
     <div class="flex flex-col md:flex-row  rounded  shadow-lg h-full p-3">
 	  <img
 	  src={project.imageName

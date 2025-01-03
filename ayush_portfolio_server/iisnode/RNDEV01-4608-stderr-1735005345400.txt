@@ -1,8 +1,0 @@
-(node:4608) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
-(Use `node --trace-deprecation ...` to show where the warning was created)
-Application has thrown an uncaught exception and is terminated:
-Error: Input file is missing: S:\ayush_images\item1.png
-    at Sharp._read (C:\SourceCode\ayush-portfolio\ayush_portfolio_server\node_modules\sharp\lib\output.js:1443:19)
-    at Readable.read (node:internal/streams/readable:739:12)
-    at resume_ (node:internal/streams/readable:1257:12)
-    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)

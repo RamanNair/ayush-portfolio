@@ -14,10 +14,10 @@
 	});
 </script>
 
-<div class="grid grid-cols-1 gap-5 p-10 sm:grid-cols-1 md:grid-cols-5 bg-gradient-to-r  from-primary-200 to-secondary-200">
+<div class="grid grid-cols-1 gap-5 p-10 sm:grid-cols-1 md:grid-cols-5">
 	{#each projects as project, i}
 		{#if visible}
-			<div class="flex flex-col aspect-square overflow-hidden rounded shadow-lg hover:scale-110 duration-200  border-gray-300 p-3 border "
+			<div class="flex flex-col aspect-square overflow-hidden rounded shadow-lg hover:scale-110 duration-200  border-gray-200 p-3 border backdrop-filter backdrop-blur-md bg-opacity-10 bg-white"
 			in:fly={{ x: -100, duration: 1000, delay: i * 100 }}>
 				<div class="h-1/2 flex justify-center">
 					<img
@@ -33,7 +33,7 @@
 					<div class="mb-2 text-xl font-bold">
 						<a href="/projects/{project.fileName}">{project.title}</a>
 					</div>
-					<p class="text-base text-gray-700">
+					<p class="text-base">
 						{project.description}
 					</p>
 				</div>
