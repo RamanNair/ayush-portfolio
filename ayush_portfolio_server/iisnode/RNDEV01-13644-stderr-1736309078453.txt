@@ -1,0 +1,57 @@
+(node:13644) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+SyntaxError: Bad control character in string literal in JSON at position 98 (line 5 column 37)
+    at JSON.parse (<anonymous>)
+    at C:\SourceCode\ayush-portfolio\ayush_portfolio_server\src\routes\projects.js:33:23
+    at Layer.handle [as handle_request] (C:\SourceCode\ayush-portfolio\ayush_portfolio_server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\SourceCode\ayush-portfolio\ayush_portfolio_server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\SourceCode\ayush-portfolio\ayush_portfolio_server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\SourceCode\ayush-portfolio\ayush_portfolio_server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\SourceCode\ayush-portfolio\ayush_portfolio_server\node_modules\express\lib\router\index.js:284:15
+    at param (C:\SourceCode\ayush-portfolio\ayush_portfolio_server\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\SourceCode\ayush-portfolio\ayush_portfolio_server\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\SourceCode\ayush-portfolio\ayush_portfolio_server\node_modules\express\lib\router\index.js:421:3)
+SyntaxError: Bad control character in string literal in JSON at position 98 (line 5 column 37)
+    at JSON.parse (<anonymous>)
+    at C:\SourceCode\ayush-portfolio\ayush_portfolio_server\src\routes\projects.js:33:23
+    at Layer.handle [as handle_request] (C:\SourceCode\ayush-portfolio\ayush_portfolio_server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\SourceCode\ayush-portfolio\ayush_portfolio_server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\SourceCode\ayush-portfolio\ayush_portfolio_server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\SourceCode\ayush-portfolio\ayush_portfolio_server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\SourceCode\ayush-portfolio\ayush_portfolio_server\node_modules\express\lib\router\index.js:284:15
+    at param (C:\SourceCode\ayush-portfolio\ayush_portfolio_server\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\SourceCode\ayush-portfolio\ayush_portfolio_server\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\SourceCode\ayush-portfolio\ayush_portfolio_server\node_modules\express\lib\router\index.js:421:3)
+SyntaxError: Bad control character in string literal in JSON at position 98 (line 5 column 37)
+    at JSON.parse (<anonymous>)
+    at C:\SourceCode\ayush-portfolio\ayush_portfolio_server\src\routes\projects.js:18:25
+    at Layer.handle [as handle_request] (C:\SourceCode\ayush-portfolio\ayush_portfolio_server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\SourceCode\ayush-portfolio\ayush_portfolio_server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\SourceCode\ayush-portfolio\ayush_portfolio_server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\SourceCode\ayush-portfolio\ayush_portfolio_server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\SourceCode\ayush-portfolio\ayush_portfolio_server\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\SourceCode\ayush-portfolio\ayush_portfolio_server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\SourceCode\ayush-portfolio\ayush_portfolio_server\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\SourceCode\ayush-portfolio\ayush_portfolio_server\node_modules\express\lib\router\index.js:175:3)
+SyntaxError: Bad control character in string literal in JSON at position 98 (line 5 column 37)
+    at JSON.parse (<anonymous>)
+    at C:\SourceCode\ayush-portfolio\ayush_portfolio_server\src\routes\projects.js:18:25
+    at Layer.handle [as handle_request] (C:\SourceCode\ayush-portfolio\ayush_portfolio_server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\SourceCode\ayush-portfolio\ayush_portfolio_server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\SourceCode\ayush-portfolio\ayush_portfolio_server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\SourceCode\ayush-portfolio\ayush_portfolio_server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\SourceCode\ayush-portfolio\ayush_portfolio_server\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\SourceCode\ayush-portfolio\ayush_portfolio_server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\SourceCode\ayush-portfolio\ayush_portfolio_server\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\SourceCode\ayush-portfolio\ayush_portfolio_server\node_modules\express\lib\router\index.js:175:3)
+SyntaxError: Bad control character in string literal in JSON at position 98 (line 5 column 37)
+    at JSON.parse (<anonymous>)
+    at C:\SourceCode\ayush-portfolio\ayush_portfolio_server\src\routes\projects.js:18:25
+    at Layer.handle [as handle_request] (C:\SourceCode\ayush-portfolio\ayush_portfolio_server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\SourceCode\ayush-portfolio\ayush_portfolio_server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\SourceCode\ayush-portfolio\ayush_portfolio_server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\SourceCode\ayush-portfolio\ayush_portfolio_server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\SourceCode\ayush-portfolio\ayush_portfolio_server\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\SourceCode\ayush-portfolio\ayush_portfolio_server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\SourceCode\ayush-portfolio\ayush_portfolio_server\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\SourceCode\ayush-portfolio\ayush_portfolio_server\node_modules\express\lib\router\index.js:175:3)

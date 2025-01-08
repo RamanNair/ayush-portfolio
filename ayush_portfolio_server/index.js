@@ -14,14 +14,16 @@ const app = express();
 // }
 
 // Middleware
-app.options('*', cors()) // include before other routes
+// app.options('*', cors()) // include before other routes
+app.use(cors());
 
 // Enable CORS for specific origin
-app.use(cors({
-  origin: ['http://202.177.41.198:9092','http://ramannair.asuscomm.com:9092','http://localhost:5173','http://localhost:4173','http://192.168.50.200:9092'], // Allow this origin
-  methods: ['GET', 'POST'], // Allow these methods
-  credentials: true, // If you need to send cookies or authentication tokens
-}));
+// app.use(cors({
+//   origin: ['http://202.177.41.198:9092','http://ramannair.asuscomm.com:9092','http://localhost:5173','http://localhost:4173','http://192.168.50.200:9092'], // Allow this origin
+//   methods: ['GET', 'POST'], // Allow these methods
+//   credentials: true, // If you need to send cookies or authentication tokens
+// }));
+
 // app.use(cors(corsOptions)); // Enable CORS
 app.use(express.json()); // Parse JSON request body
 

@@ -1,119 +1,117 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
-  ],
-  theme: {
-		extend: {
-		  colors: {
-			primary: {
-				50: '#f8f8fa',
-				100: '#f2f1f6',
-				200: '#e7e5ef',
-				300: '#d5d1e1',
-				400: '#bdb6cf',
-				500: '#a497bb',
-				600: '#9281aa',
-				700: '#7e6c95',
-				800: '#6a5a7d',
-				900: '#574b67',
-				950: '#393144',
-					},
-			secondary: {
-			  50: '#f1f8e9',
-			  100: '#dcedc8',
-			  200: '#c5e1a5',
-			  300: '#aed581',
-			  400: '#9ccc65',
-			  500: '#8bc34a',
-			  600: '#7cb342',
-			  700: '#689f38',
-			  800: '#558b2f',
-			  900: '#33691e',
-			},
-			warn: {
-			  50: '#fff8e1',
-			  100: '#ffecb3',
-			  200: '#ffe082',
-			  300: '#ffd54f',
-			  400: '#ffca28',
-			  500: '#ffc107',
-			  600: '#ffb300',
-			  700: '#ffa000',
-			  800: '#ff8f00',
-			  900: '#ff6f00',
-			},
-			danger: {
-			  50: '#ffebee',
-			  100: '#ffcdd2',
-			  200: '#ef9a9a',
-			  300: '#e57373',
-			  400: '#ef5350',
-			  500: '#f44336',
-			  600: '#e53935',
-			  700: '#d32f2f',
-			  800: '#c62828',
-			  900: '#b71c1c',
-			},
+	content: ["./src/**/*.{js,jsx,ts,tsx}"],
+	theme: {
+	  extend: {
+		colors: {},
+		// colors: {
+		//   primary: {
+		//     50: "#fefce8",
+		//     100: "#fffac2",
+		//     200: "#fff187",
+		//     300: "#ffe243",
+		//     400: "#ffcb05", //main
+		//     500: "#efb403",
+		//     600: "#ce8b00",
+		//     700: "#a46204",
+		//     800: "#884c0b",
+		//     900: "#733e10",
+		//     950: "#432005",
+		//   },
+  
+		//   primaryX: {
+		//     50: "#fffaeb",
+		//     100: "#fff0c6",
+		//     200: "#fee089",
+		//     300: "#fec63d",
+		//     400: "#feb421",
+		//     500: "#f89208",
+		//     600: "#db6b04",
+		//     700: "#b64907",
+		//     800: "#94380c",
+		//     900: "#792f0e",
+		//     950: "#461602",
+		//   },
+		//   primary2: {
+		//     50: "#eff6ff",
+		//     100: "#dbeafe",
+		//     200: "#bfdbfe",
+		//     300: "#93c5fd",
+		//     400: "#60a5fa",
+		//     500: "#3b82f6",
+		//     600: "#2563eb",
+		//     700: "#1d4ed8",
+		//     800: "#1e40af",
+		//     900: "#1e3a8a",
+		//   },
+		//   secondary: {
+		//     50: "#f6f6f6",
+		//     100: "#e7e7e7",
+		//     200: "#d1d1d1",
+		//     300: "#b0b0b0",
+		//     400: "#888888",
+		//     500: "#6d6d6d",
+		//     600: "#5d5d5d",
+		//     700: "#4f4f4f",
+		//     800: "#454545",
+		//     900: "#3d3d3d",
+		//     950: "#1c1c1c",
+		//   },
+		//   secondaryX: { DEFAULT: "#6B7280", 50: "#FAFAFB", 100: "#EFEFF1", 200: "#D8DADF", 300: "#C2C5CC", 400: "#ACB0BA", 500: "#969BA7", 600: "#7F8694", 700: "#6B7280", 800: "#515761", 900: "#383C43", 950: "#2B2E34" },
+		//   secondary2: {
+		//     50: "#fdf2f8",
+		//     100: "#fce7f3",
+		//     200: "#fbcfe8",
+		//     300: "#f9a8d4",
+		//     400: "#f472b6",
+		//     500: "#ec4899",
+		//     600: "#db2777",
+		//     700: "#be185d",
+		//     800: "#9d174d",
+		//     900: "#831843",
+		//   },
+		//   danger: {
+		//     50: "#fef2f2",
+		//     100: "#fee2e2",
+		//     200: "#fecaca",
+		//     300: "#fca5a5",
+		//     400: "#f87171",
+		//     500: "#ef4444",
+		//     600: "#dc2626",
+		//     700: "#b91c1c",
+		//     800: "#991b1b",
+		//     900: "#7f1d1d",
+		//   },
+		// },
+	  },
+	},
+	daisyui: {
+	  themes: [
+		{
+		  mytheme: {
+			primary: "#fec63d",
+			"primary-content": "#1a1914",
+			secondary: "#64748b",
+			"secondary-content": "#f9fafb",
+			accent: "#c00000",
+			"accent-content": "#f9d5cf",
+			neutral: "#080f0f",
+			"neutral-content": "#c6c8c8",
+			"base-100": "#f5feff",
+			"base-200": "#d5ddde",
+			"base-300": "#b6bdbe",
+			"base-content": "#151616",
+			info: "#00bdff",
+			"info-content": "#000d16",
+			success: "#00aa60",
+			"success-content": "#000b03",
+			warning: "#f57100",
+			"warning-content": "#150400",
+			error: "#fc0014",
+			"error-content": "#160000",
 		  },
 		},
+	  ],
 	},
-	// plugins: [require('daisyui')],
-	// daisyui: {
-	// 	themes: [
-	// 		{
-	// 			myLightTheme: {
-	// 				primary: '#0d9488',
-	// 				'primary-content': '#115e59',
-	// 				secondary: '#378d7d',
-	// 				'secondary-content': '#cde0ff',
-	// 				accent: '#059669',
-	// 				'accent-content': '#001000',
-	// 				neutral: '#112b40',
-	// 				'neutral-content': '#cad0d6',
-	// 				'base-100': '#f5feff',
-	// 				'base-200': '#d5ddde',
-	// 				'base-300': '#b6bdbe',
-	// 				'base-content': '#151616',
-	// 				info: '#00cfff',
-	// 				'info-content': '#001016',
-	// 				success: '#00a56e',
-	// 				'success-content': '#000a04',
-	// 				warning: '#ff7900',
-	// 				'warning-content': '#160500',
-	// 				error: '#ff0063',
-	// 				'error-content': '#160003'
-	// 			},
-	// 			myDarkTheme: {
-	// 				primary: '0d9488',
-	// 				'primary-content': '#ccfbf1',
-	// 				secondary: '#378d7d',
-	// 				'secondary-content': '#160100',
-	// 				accent: '#00d9bb',
-	// 				'accent-content': '#00110d',
-	// 				neutral: '#051106',
-	// 				'neutral-content': '#c6c9c6',
-	// 				// 'base-100': '#394446', //darkest dark
-	// 				// 'base-200': '#255059', //medium dark
-	// 				// 'base-300': '#195966', //lightest dark
-
-	// 				'base-100': '#505657', //darkest dark
-	// 				'base-200': '#646A6C', //medium dark
-	// 				'base-300': '#797F81', //lightest dark
-
-	// 				'base-content': '#cdcfd6',
-	// 				info: '#00e5ff',
-	// 				'info-content': '#001216',
-	// 				success: '#00dda5',
-	// 				'success-content': '#00110a',
-	// 				warning: '#ff8800',
-	// 				'warning-content': '#160600',
-	// 				error: '#ff6b75',
-	// 				'error-content': '#160405'
-	// 			}
-	// 		},
-	// 		'nord',
-	// 		'dark'
-	// 	]
-	// }
-};
+	plugins: [require("daisyui")],
+  };

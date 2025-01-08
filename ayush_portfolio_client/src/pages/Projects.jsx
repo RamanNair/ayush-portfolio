@@ -16,24 +16,26 @@ const Projects = () => {
         <div class="grid gap-5 md:grid-cols-5">
             {projects().map((project, i) => (
                 <Motion.div
-                    key={project.fileName}
-                    class="flex flex-col aspect-square overflow-hidden rounded shadow-lg hover:scale-110 duration-200 border-gray-200 p-3 border backdrop-filter backdrop-blur-md bg-opacity-10 bg-white"
                     animate={{ opacity: [0, 1] }}
                     transition={{ duration: 1, easing: "ease-in-out", delay: i * .1 }}
-                >
+                    class="card glass flex flex-col aspect-square  overflow-hidden">
                     <div class="h-1/2 flex justify-center">
-                        <img
-                            src={project.imageName ? `/assets/images/${project.imageName}` : 'comming_soon.jpg'}
-                            alt={project.title}
-                            class="h-full"
-                        />
-                    </div>
-
-                    <div class="px-6 py-4">
-                        <div class="mb-2 text-xl font-bold">
-                            <a href={`/projects/${project.fileName}`}>{project.title}</a>
+                        <figure>
+                            <img
+                                src={project.imageName ? `/assets/images/${project.imageName}` : 'comming_soon.jpg'}
+                                alt={project.title}
+                                class="h-full" />
+                        </figure></div>
+                    <div class="card-body">
+                        <h2 class="card-title">{project.title}</h2>
+                        <p class='truncate'>{project.description}</p>
+                        <div class="card-actions justify-end">
+                            {/* <button class="btn btn-primary"><a href={`/projects/${project.fileName}`}>{project.title}</a></button> */}
+                       
+                       
+                       
+                            <a  href={`/projects/${project.fileName}`} class="btn btn-primary">{project.title}</a>
                         </div>
-                        <p class="text-base">{project.description}</p>
                     </div>
                 </Motion.div>
             ))}
