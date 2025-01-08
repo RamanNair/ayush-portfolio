@@ -1,9 +1,0 @@
-Server is running on http://localhost:\\.\pipe\471092f8-7ea0-42ed-b188-1a80ebe7bcd8
-here I am NOW....
-item1.png
-kopi.png
-M8.png
-music.png
-here I am NOW222....
-music.png
-here I am NOW....

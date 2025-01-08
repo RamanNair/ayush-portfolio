@@ -1,2 +1,0 @@
-Server is running on http://localhost:\\.\pipe\565d42f8-e955-4b6c-baca-55c830791857
-item1.png
